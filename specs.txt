@@ -16,19 +16,25 @@
     Input: "hello"
     Output: 8
 
-4.  test_numbers
+4.  test_upcase
+
+    Behavior: Will return value of word while ignoring upper case letters
+    Input: "Hello"
+    Output: 8
+
+5.  test_numbers
 
     Behavior: Will return error message if numbers are present
     Input: "hi1"
     Output: Error Message
 
-5.  test_special_chars
+6.  test_special_chars
 
     Behavior: Will return error message if special characters are present
     Input: "$$%aa"
     Output: Error Message
 
-6.  test_multiple_words
+7.  test_multiple_words
 
     Behavior: Will return error message if multiple words are entered
     Input: "Hello World"
