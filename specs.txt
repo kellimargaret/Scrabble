@@ -1,0 +1,35 @@
+1.  test_one_letter
+
+    Behavior: Will return the value of one letter
+    Input: "a"
+    Output: 1
+
+2.  test_two_letters
+
+    Behavior: Will return the combined value of two letters
+    Input: "ae"
+    Output: 2
+
+3.  test_word
+
+    Behavior: Will return the combined value of a word
+    Input: "hello"
+    Output: 8
+
+4.  test_numbers
+
+    Behavior: Will return error message if numbers are present
+    Input: "hi1"
+    Output: Error Message
+
+5.  test_special_chars
+
+    Behavior: Will return error message if special characters are present
+    Input: "$$%aa"
+    Output: Error Message
+
+6.  test_multiple_words
+
+    Behavior: Will return error message if multiple words are entered
+    Input: "Hello World"
+    Output: Error Message
