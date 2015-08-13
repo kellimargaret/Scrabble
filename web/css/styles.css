@@ -1,17 +1,22 @@
 body {
     margin: 0;
-    background-image: url(../img/board-game.jpg);
+    background-image: url(https://images.unsplash.com/photo-1437422061949-f6efbde0a471?q=80&fm=jpg&s=e23055c9ba7686b8fe583fb8318a1f88);
     background-size: cover;
     background-repeat: no-repeat;
-    display: block;
-    max-width: 100%;
-    height: auto;
+
+
+}
+
+.logo {
+    color: purple;
+    font-family: 'Lora', serif;
 }
 
 .bg-form {
-    background-color: lightblue;
-    width: 50%;
-    display: block;
+    background-color: lightgrey;
+    opacity: 0.7;
+    width: 40%;
+    border-radius: 1em;
     margin: 0;
     position: absolute;
     top: 50%;
@@ -21,6 +26,18 @@ body {
 
 }
 
-.form-group {
+.form-control {
+    width: 50%;
+}
 
+.form-container {
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+
+#word {
+    margin-left: auto;
+    margin-right: auto;
 }
