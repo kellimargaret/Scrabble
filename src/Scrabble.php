@@ -22,6 +22,8 @@
                     $score += 8;
                 } elseif (($letter == "q") || ($letter == "z")) {
                     $score += 10;
+                } else {
+                    return "Error Message";
                 }
             }
             /*$score = 0;

@@ -44,5 +44,15 @@
 
             $this->assertEquals(8, $result);
         }
+
+        function test_numbers()
+        {
+            $test_Scrabble = new Scrabble;
+            $input = "Hello1";
+
+            $result = $test_Scrabble->scrabbleGame($input);
+
+            $this->assertEquals("Error Message", $result);
+        }
     }
 ?>
