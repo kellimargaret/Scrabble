@@ -9,23 +9,21 @@
         <div class='container'>
             <div class="bg-form">
                 <div class="form-container">
-                <h1 class='logo'>Scrabble Word Score!</h1>
-                {% if result is not empty %}
-                    {% if result == 0 %}
-                        <h3>Please enter one valid word</h3>
-                    {% else %}
-                        <h3>Your score is: {{ result }}</h3>
+                    <h1 class='logo'>Scrabble Word Score!</h1>
+                    {% if result is not empty %}
+                        {% if result == 0 %}
+                            <h3>Please enter one valid word</h3>
+                        {% else %}
+                            <h3>Your score is: {{ result }}</h3>
+                        {% endif %}
                     {% endif %}
-                {% endif %}
-
-
                     <form action="/score_check" class="form-group">
-                            <div class="form-group">
-                                <label for="word">Enter your Scrabble word to check its value:</label>
-                                <input id="word" name="word" class="form-control" type="text" placeholder="Enter Scrabble Word">
-                            </div>
-                            <button type="submit" class="btn btn-danger btn-lg">Submit</button>
-                        </form>
+                        <div class="form-group">
+                            <label for="word">Enter your Scrabble word to check its value:</label>
+                            <input id="word" name="word" class="form-control" type="text" placeholder="Enter Scrabble Word">
+                        </div>
+                        <button type="submit" class="btn btn-danger btn-lg">Submit</button>
+                    </form>
                 </div>
             </div>
         </div>
