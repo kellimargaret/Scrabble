@@ -8,7 +8,7 @@
             $input_array = str_split(strtolower($input));
             foreach($input_array as $letter)
             {
-                if (($letter == "a") || ($letter == "e") || ($letter == "i") || ($letter == "o") || ($letter == "u") || ($letter == "l") || ($letter == "r") || ($letter == "s") || ($letter == "t")) {
+                if (($letter == "a") || ($letter == "e") || ($letter == "i") || ($letter == "o") || ($letter == "u") || ($letter == "l") || ($letter == "r") || ($letter == "s") || ($letter == "t") || ($letter == "n")) {
                     $score += 1;
                 } elseif(($letter == "d") || ($letter == "g")) {
                     $score += 2;
