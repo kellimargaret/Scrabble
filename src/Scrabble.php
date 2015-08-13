@@ -5,7 +5,7 @@
         function scrabbleGame($input)
         {
             $score = 0;
-            $input_array = str_split($input);
+            $input_array = str_split(strtolower($input));
             foreach($input_array as $letter)
             {
                 if (($letter == "a") || ($letter == "e") || ($letter == "i") || ($letter == "o") || ($letter == "u") || ($letter == "l") || ($letter == "r") || ($letter == "s") || ($letter == "t")) {
