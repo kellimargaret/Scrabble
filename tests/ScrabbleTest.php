@@ -45,10 +45,20 @@
             $this->assertEquals(8, $result);
         }
 
-        function test_numbers()
+        function test_non_letters()
         {
             $test_Scrabble = new Scrabble;
-            $input = "Hello1";
+            $input = "He#llo1";
+
+            $result = $test_Scrabble->scrabbleGame($input);
+
+            $this->assertEquals("Error Message", $result);
+        }
+
+        function test_multiple_words()
+        {
+            $test_Scrabble = new Scrabble;
+            $input = "Hello World";
 
             $result = $test_Scrabble->scrabbleGame($input);
 

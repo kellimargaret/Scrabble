@@ -22,16 +22,10 @@
     Input: "Hello"
     Output: 8
 
-5.  test_numbers
+5.  test_non_letters
 
     Behavior: Will return error message if numbers are present
-    Input: "hi1"
-    Output: Error Message
-
-6.  test_special_chars
-
-    Behavior: Will return error message if special characters are present
-    Input: "$$%aa"
+    Input: "h#i1"
     Output: Error Message
 
 7.  test_multiple_words
