@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    background-image: url(../img/board-game.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.bg-form {
+    background-color: lightblue;
+    width: 50%;
+    display: block;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.form-group {
+
+}

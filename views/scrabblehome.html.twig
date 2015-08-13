@@ -1,10 +1,12 @@
 <html>
     <head>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/styles.css">
         <title>Scrabble</title>
     </head>
     <body>
         <div class='container'>
+            <div class="bg-form">
         <h1>Scrabble Word Score!</h1>
         {% if result is not empty %}
             {% if result == 0 %}
@@ -17,10 +19,11 @@
         <form action="/score_check">
                 <div class="form-group">
                     <label for="word">Enter your Scrabble word to check its value:</label>
-                    <input id="word" name="word" class="form-control" type="text">
+                    <input id="word" name="word" class="form-control" type="text" placeholder="Enter Scrabble Word">
                 </div>
-                <button type="submit" class="btn btn-success">Submit</button>
+                <button type="submit" class="btn btn-danger btn-lg">Submit</button>
             </form>
+        </div>
         </div>
     </body>
 </html>
